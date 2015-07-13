@@ -380,7 +380,7 @@ NeoBundle "jordwalke/VimCompleteLikeAModernEditor"
 " ==============================================================================
 
 " ============================= Commenter ======================================
-NeoBundle "https://github.com/tomtom/tcomment_vim"
+NeoBundle "tpope/vim-commentary"
 " ==============================================================================
 
 
