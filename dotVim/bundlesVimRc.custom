@@ -1,4 +1,6 @@
 " Add custom bundles here using the `NeoBundle` command.
+
 NeoBundle "tpope/vim-unimpaired"
+NeoBundle "vim-scripts/Colour-Sampler-Pack"
 NeoBundle "mhinz/vim-signify"
 NeoBundle "Xuyuanp/nerdtree-git-plugin"
