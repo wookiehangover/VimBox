@@ -1,6 +1,48 @@
 " Overwrite this file with whatever you want. This will be executed after
 " loading any of the stock bundles/settings.
+color dejavu
+
+" Change mapleader
+let mapleader=","
+
+" Set local directories
+set backupdir=~/.vim/backup
+set directory=~/.vim/swap
+set undodir=~/.vim/undo
+
+set colorcolumn=80 " let us know where 80char lines should end
+set cursorline " highlight the current line
+set list listchars=tab:\∴\ ,trail:· " Show trailing space and hard tabs
+set hidden " When a buffer is brought to foreground, remember undo history and marks.
+set noerrorbells " Disable error bells.
+set nu " Enable line numbers.
+set undofile " Persistent Undo.
+set nostartofline " Don't reset cursor to start of line when moving around.
+set gdefault " By default add g flag to search/replace. Add g to toggle.
+set shortmess=atI " Don't show the intro message when starting vim.
+
+let NERDTreeMinimalUI=1
+let NERDTreeDirArrows=1
+let NERDTreeMouseMode=2
+let NERDTreeChDirMode=2
+
+" Better split switching (Ctrl-j, Ctrl-k, Ctrl-h, Ctrl-l)
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-H> <C-W>h
+map <C-L> <C-W>l
+
+" Buffer navigation (,,) (,]) (,[) (,ls)
+map <Leader>, <C-^>
+map <Leader>] :bnext<CR>
+map <Leader>[ :bprev<CR>
+map <Leader>ls :buffers<CR>
+
 " Unimpaired configuration
 " Bubble single lines
 nmap <C-up> [e
 nmap <C-down> ]e
+
+" Bubble multiple lines
+vmap <C-up> [egv
+vmap <C-down> ]egv
