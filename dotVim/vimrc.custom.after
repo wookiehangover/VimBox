@@ -34,9 +34,9 @@ map <C-L> <C-W>l
 
 " Buffer navigation (,,) (,]) (,[) (,ls)
 map <Leader>, <C-^>
-map <Leader>] :bnext<CR>
 map <Leader>[ :bprev<CR>
 map <Leader>ls :buffers<CR>
+map <Leader>] :bnext<CR>
 
 " Unimpaired configuration
 " Bubble single lines
@@ -46,3 +46,5 @@ nmap <C-down> ]e
 " Bubble multiple lines
 vmap <C-up> [egv
 vmap <C-down> ]egv
+
+map <D-b> <Esc>:buffers<Cr>:b
