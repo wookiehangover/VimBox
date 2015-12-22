@@ -1,6 +1,5 @@
 " Overwrite this file with whatever you want. This will be executed after
 " loading any of the stock bundles/settings.
-color dejavu
 
 " Change mapleader
 let mapleader=","
@@ -21,16 +20,14 @@ set nostartofline " Don't reset cursor to start of line when moving around.
 set gdefault " By default add g flag to search/replace. Add g to toggle.
 set shortmess=atI " Don't show the intro message when starting vim.
 
-let NERDTreeMinimalUI=1
-let NERDTreeDirArrows=1
-let NERDTreeMouseMode=2
-let NERDTreeChDirMode=2
+" let NERDTreeMinimalUI=1
+" let NERDTreeDirArrows=1
 
 " Better split switching (Ctrl-j, Ctrl-k, Ctrl-h, Ctrl-l)
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-H> <C-W>h
-map <C-L> <C-W>l
+" map <C-j> <C-W>j
+" map <C-k> <C-W>k
+" map <C-H> <C-W>h
+" map <C-L> <C-W>l
 
 " Buffer navigation (,,) (,]) (,[) (,ls)
 map <Leader>, <C-^>

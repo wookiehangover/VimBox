@@ -14,4 +14,4 @@ hi def link NERDTreeCurrentNode Search
 hi def link NERDTreeCWD Normal
 
 " Not so much color
-let g:NERDChristmasTree = 0
+let g:NERDTreeMouseMode=3
